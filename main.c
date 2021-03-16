@@ -11,7 +11,7 @@ int main(void)
 {
 	int a = 1792;
 	int b = 7562;
-	//char *ch = "mehdi";
+	char *ch = "meh";
 
 	int len;
     	int len2;
@@ -61,7 +61,7 @@ int main(void)
 	_printf("HEXA:[%X]\n", b);
         printf("HEXA:[%X]\n", b);
 
-	_printf("reversed:[%r]\n", "mehdi");
+	_printf("reversed:[%r]\n", ch);
        // printf("reversed:[%r]\n", "mehdi");
 
 	_printf("rot13:[%R]\n", "mehdi");

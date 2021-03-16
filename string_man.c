@@ -13,20 +13,30 @@ int print_reversed(va_list arg)
 	int i = 0, c = 0;
 
 	str = va_arg(arg, char *);
+
 	if (str == NULL)
 	{
 		str = ")llun(";
+		while(str[i])
+		{
+			_putchar(str[i]);
+			i++;
+			c++;
+		}
 	}
-	while (str[i])
+	else
 	{
-		i++;
-	}
+		while (str[i])
+		{
+			i++;
+		}
 
-	while (i >= 0)
-	{
-		_putchar(str[i]);
-		c++;
-		i--;
+		while (i >= 0)
+		{
+			_putchar(str[i]);
+			c++;
+			i--;
+		}
 	}
 	return (c);
 }
