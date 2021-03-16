@@ -9,33 +9,33 @@
 
 int print_number(va_list args)
 {
-	char c;
-	int res = 0, len = 0, n;
+	int n;
+	int div;
+	int len;
+	int num;
 
-	n = va_arg(args, int);
+	n  = va_arg(args, int);
+	div = 1;
+	len = 0;
+
 	if (n < 0)
 	{
 		len += _putchar('-');
-		c = (char)('0' - (n % 10));
-		n /= -10;
+		num = n * -1;
 	}
 	else
+		num = n;
+
+	for (; num / div > 9; )
+		div *= 10;
+
+	for (; div != 0; )
 	{
-		c = (char)((n % 10) + '0');
-		n /= 10;
+		len += _putchar('0' + num / div);
+		num %= div;
+		div /= 10;
 	}
 
-	while (n > 0)
-	{
-		res = res * 10 + (n % 10);
-		n /= 10;
-	}
-	while (res > 0)
-	{
-		len += _putchar((res % 10) + '0');
-		res /= 10;
-	}
-	len += _putchar(c);
 	return (len);
 }
 
