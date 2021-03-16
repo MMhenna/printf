@@ -3,7 +3,7 @@
 
 /**
  * print_binary - Converts a number from base 10 to binary.
- * @num: Number to be converted.
+ * @list: Number to be converted.
  *
  * Return: The length of the number printed
  */
