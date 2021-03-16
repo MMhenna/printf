@@ -11,7 +11,7 @@ int main(void)
 {
 	int a = 1792;
 	int b = 7562;
-	char *ch = "meh";
+	char *ch = "";
 
 	int len;
     	int len2;

@@ -45,6 +45,7 @@ int print_number(va_list args)
  *
  * Return: The amount of numbers printed
  */
+
 int print_unsgined_number(va_list args)
 {
 	char c;
@@ -66,5 +67,4 @@ int print_unsgined_number(va_list args)
 	}
 	len += _putchar(c);
 	return (len);
-
 }

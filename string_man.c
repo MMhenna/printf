@@ -1,4 +1,6 @@
 #include "holberton.h"
+#include <stdarg.h>
+#include <stdio.h>
 
 /**
  * print_reversed - Calls a function to reverse and print a string

@@ -1,11 +1,13 @@
-					Printf
-Synopsis
+## _Printf
+## Synopsis
 
-	This is a simple implementation of printf function that formats and prints data
+ This is a simple implementation of printf function that formats and prints data
 
-Description
+## Description
 
-	The _printf() function produces output according to a format which is described below. This function write its output to the stdout, the standard output stream. Returns the count of printed characters when the function is successful and -1 when the function fails.
+ The _printf() function produces output according to a format which is described below.
+ This function write its output to the stdout, the standard output stream.
+ Returns the count of printed characters when the function is successful and -1 when the function fails.
 	The available convertion specifiers are:
 	%c: Prints a single character. 
 	%s: Prints a string of characters. 
@@ -18,8 +20,8 @@ Description
 	%r: Prints a reversed string 
 	%R: Prints the Rot13 interpretation of a string
  
-Usage
+## Usage
 
-	All the files are to be compiled on Ubuntu 14.04 LTS 
-	Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c 
-	Include the "holberton.h" header file on the functions using the _printf() 
+ All the files are to be compiled on Ubuntu 14.04 LTS 
+ Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c 
+ Include the "holberton.h" header file on the functions using the _printf() 
