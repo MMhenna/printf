@@ -32,9 +32,13 @@ int print_integer(va_list);
 int unsigned_integer(va_list);
 int print_number(va_list);
 int print_binary(va_list);
+int print_octal(va_list);
+int print_hex(va_list);
+int print_heX(va_list);
 
 char *rev_string(char *s);
 unsigned int base_len(unsigned int num, int base);
 void write_string(char *str);
+int hex_check(int num, char x);
 
 #endif

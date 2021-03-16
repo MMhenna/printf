@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	int a = 6;
-	int b = 6;
+	int a = 1792;
+	int b = 7562;
 
 	int len;
     	int len2;
@@ -51,8 +51,14 @@ int main(void)
     	printf("String:[%s]\n", "I am a string !");
 
 
-	_printf("Negative:[%ii]\n", a + b);
-        printf("Negative:[%ii]\n", a + b);
+	_printf("octal:[%o]\n", a);
+        printf("octal:[%o]\n", a);
+
+	_printf("hexa:[%x]\n", b);
+        printf("hexa:[%x]\n", b);
+
+	_printf("HEXA:[%X]\n", b);
+        printf("HEXA:[%X]\n", b);
 
 	return (0);
 }
