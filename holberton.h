@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
-* struct convert - defines a structure for symbols and functions
+* struct linkfs - defines a structure for symbols and functions
 *
 * @sym: The operator
 * @f: The function associated
