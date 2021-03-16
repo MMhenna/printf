@@ -9,21 +9,26 @@
 
 int print_reversed(va_list arg)
 {
-	int len;
-	char *str, *ptr;
+	char *str;
+	int i = 0, c = 0;
 
 	str = va_arg(arg, char *);
 	if (str == NULL)
-		return (-1);
+	{
+		str = ")llun(";
+	}
+	while (str[i])
+	{
+		i++;
+	}
 
-	ptr = rev_string(str);
-
-	if (ptr == NULL)
-		return (-1);
-	for (len = 0; ptr[len] != '\0'; len++)
-		_putchar(ptr[len]);
-
-	return (len);
+	while (i >= 0)
+	{
+		_putchar(str[i]);
+		c++;
+		i--;
+	}
+	return (c);
 }
 
 /**
