@@ -24,6 +24,12 @@ int main(void)
     	_printf("Length:[%d, %i]\n", len, len);
     	printf("Length:[%d, %i]\n", len2, len2);
 
+	_printf("Length:[%d, %i]\n", INT_MAX, INT_MAX);
+        printf("Length:[%d, %i]\n", INT_MAX, INT_MAX);
+
+	_printf("Length:[%d, %i]\n", INT_MIN, INT_MIN);
+        printf("Length:[%d, %i]\n", INT_MIN, INT_MIN);
+
     	_printf("Negative:[%d]\n", -762534);
     	printf("Negative:[%d]\n", -762534);
 
