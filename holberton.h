@@ -36,6 +36,8 @@ int print_binary(va_list);
 int print_octal(va_list);
 int print_hex(va_list);
 int print_heX(va_list);
+int print_reversed(va_list);
+int rot13(va_list);
 
 char *rev_string(char *s);
 unsigned int base_len(unsigned int num, int base);
