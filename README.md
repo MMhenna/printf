@@ -27,4 +27,4 @@
  Compile your code with gcc -Wall -Werror -Wextra -pedantic *.c 
  Include the "holberton.h" header file on the functions using the _printf() 
 
-# Project made for Holberton school by Mehdi Mhenna.
+##### Project made for Holberton school by Mehdi Mhenna.
