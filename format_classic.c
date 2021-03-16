@@ -71,5 +71,8 @@ int print_integer(va_list list)
 
 int unsigned_integer(va_list list)
 {
-	return (print_number(list));
+	unsigned int num_lenght;
+
+	num_lenght = print_unsgined_number(list);
+	return (num_lenght);
 }
