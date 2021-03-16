@@ -9,7 +9,9 @@
  */
 int main(void)
 {
-
+	int a = 6;
+	int b = 6;
+/**
 	int len;
     	int len2;
 	unsigned int ui;
@@ -33,6 +35,9 @@ int main(void)
     printf("Character:[%c]\n", 'H');
     _printf("String:[%s]\n", "I am a string !");
     printf("String:[%s]\n", "I am a string !");
+*/
 
+	_printf("Negative:[%ii]\n", a + b);
+        printf("Negative:[%ii]\n", a + b);
 	return (0);
 }
