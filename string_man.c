@@ -19,7 +19,7 @@ int print_reversed(va_list arg)
 	if (str == NULL)
 	{
 		str = ")llun(";
-		while(str[i])
+		while (str[i])
 		{
 			_putchar(str[i]);
 			i++;
